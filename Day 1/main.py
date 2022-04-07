@@ -24,4 +24,4 @@ def create_posts(payload: dict = Body(...)):
     return {"new_post": f"title  {payload['title']}  content: {payload['content']}"}
 
 
-#comments added
+#comments
